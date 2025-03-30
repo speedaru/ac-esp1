@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hack_classes">
+      <UniqueIdentifier>{88277011-a23d-42d5-a313-8666464c1567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rake">
+      <UniqueIdentifier>{f37f03e9-2bb8-4c50-9e17-6f25245c20ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks">
+      <UniqueIdentifier>{e114a15d-e1f4-4fee-a503-59f903d7625d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks\norecoil">
+      <UniqueIdentifier>{f703a861-e9b9-4f88-8d24-74a4a73b5781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{23fb69fe-f0b6-4d01-9ac3-9439a237872e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{03362803-189c-491e-a82c-f02baf455d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\gldraw">
+      <UniqueIdentifier>{7b6ac50c-fc77-4f41-8d60-e8cdc10cc32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks\echo">
+      <UniqueIdentifier>{f555b223-74d1-495b-aff8-8b2ddb24aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks\esp">
+      <UniqueIdentifier>{a55bcead-0bde-4835-b0ac-042ec497c408}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_fn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\mem.cpp">
+      <Filter>hack_classes</Filter>
+    </ClCompile>
+    <ClCompile Include="hack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="norecoil.cpp">
+      <Filter>hacks\norecoil</Filter>
+    </ClCompile>
+    <ClCompile Include="gldraw.cpp">
+      <Filter>graphics\gldraw</Filter>
+    </ClCompile>
+    <ClCompile Include="geom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="echo.cpp">
+      <Filter>hacks\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>hacks\esp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook_fn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="hack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="norecoil.h">
+      <Filter>hacks\norecoil</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gldraw.h">
+      <Filter>graphics\gldraw</Filter>
+    </ClInclude>
+    <ClInclude Include="assaultcube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="echo.h">
+      <Filter>hacks\echo</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>hacks\esp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

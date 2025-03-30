@@ -1,0 +1,33 @@
+.vs/
+
+# ignore stuff
+Release/
+x64/
+come_back_training1/build/
+come_back_training1/Win32/
+come_back_training1/x64/
+
+# Ignore any object or temp files
+*.obj
+*.log
+*.tmp
+*.pch
+*.idb
+
+# Ignore CMake cache/config files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore compiled binaries
+*.exe
+*.dll
+# *.lib
+*.so
+*.a
+*.out
