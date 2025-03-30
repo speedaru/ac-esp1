@@ -25,6 +25,8 @@ CalculateWidthOffset()
 - calculates a normal vector3 from the vector we just calculated (-y, x, 0), again we ignore z
 - returns the normal vector
 
+this also makes it so when your turn around the enemy the box continues to face you
+
 using CalculateWidthOffset() we calculate 4 points:
 - 2 using the entity pos:
     - headpos + CalculateWidthOffset()
