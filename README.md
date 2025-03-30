@@ -36,4 +36,4 @@ using CalculateWidthOffset() we calculate 4 points:
 now we have 4 points around the entity and we can draw a box connecting these 4 points so now the box is nice around the player and not just a rectangle
 
 ## showcase
-!(https://github.com/speedaru/ac-esp1/issues/1)
+![image_alt](https://github.com/speedaru/ac-esp1/issues/1)
